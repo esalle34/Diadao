@@ -1,0 +1,682 @@
+body{
+
+  background: #f7f9f0;
+
+}
+
+@font-face {
+    font-family: 'avant_gardedemiregular';
+    src: url('/fonts/webfontavant_gardedemiregulars/avantgardedemi-webfont.woff2') format('woff2'),
+         url('/fonts/webfonts/avantgardedemi-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'brandon_grotesquelight';
+    src: url('/fonts/webfonts/brandon_light-webfont.woff2') format('woff2'),
+         url('/fonts/webfonts/brandon_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'brandon_grotesquemedium';
+    src: url('/fonts/webfonts/brandon_med-webfont.woff2') format('woff2'),
+         url('/fonts/webfonts/brandon_med-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'linotype_didotroman';
+    src: url('/fonts/webfonts/didotlh-roman-webfont.woff2') format('woff2'),
+         url('/fonts/webfonts/didotlh-roman-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.btn-action{
+
+	font-family: 'brandon_grotesquemedium';
+	font-size: 14px;
+	background: #93a446;
+	text-transform: uppercase;
+	color:#f1f3e6;
+	padding: 10px 20px;
+
+}
+
+.btn-action:hover{
+
+  background: #b7d52d;
+
+}
+
+
+.btn-decouverte {
+  font-family: 'brandon_grotesquelight';
+  font-size: 10px;
+  background: #aa9c30;
+  text-transform: uppercase;
+  color: #f1f3e6;
+}
+
+.btn-decouverte:hover{
+
+  background-color: #decf58;
+
+}
+
+.navbar-br{
+
+	color:#111111;
+
+}
+
+
+.btn{
+
+	border-radius:0px;
+
+}
+
+#logo {
+  width: 90px !important;
+  height: 100%;
+}
+
+img{
+
+  width:100%;
+
+}
+
+.flip-img{
+
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+
+}
+
+.slick-next {
+    right: 25px;
+    z-index: 200;
+    background: #fff;
+    opacity: 0.5;
+    text-align:center;
+    font-size: 1rem;
+    color: #141414;
+    padding-top: 3px;
+}
+
+.slick-next:hover {
+    color: #fff;
+    background-color:#141414;
+}
+
+.slick-prev {
+    left: 25px;
+    z-index: 200;
+    background: #fff;
+    opacity: 0.5;
+    text-align:center;
+    font-size: 1rem;
+    color: #141414;
+    padding-top: 3px;
+
+}
+
+.slick-prev:hover {
+    background-color:#141414;
+    color: #fff;
+}
+
+.slick-prev::before{
+
+  content: none;
+
+}
+
+.slick-next::before {
+    content: none;
+}
+
+.btn.focus, .btn:focus {
+
+    outline: 0;
+    box-shadow: none;
+
+}
+
+.abv-container{
+
+  position:relative;
+  width:100%;
+
+}
+
+.abv-carousel {
+  position: absolute;
+  top: 35px;
+  width: 210px;
+  left: 23%;
+}
+
+.abv-text {
+  color: #f9f9f9;
+  font-family: linotype_didotroman;
+  position: absolute;
+  font-size: 12px;
+  text-align: center;
+  line-height: 10px;
+  top: 115px;
+  left: 22%;
+}
+
+.contact-container {
+  position: absolute;
+  top: 175px;
+  left: 69%;
+}
+
+p.contact {
+  color: #ffffff;
+  font-family: 'brandon_grotesquemedium';
+  font-size: 9px;
+  text-transform: uppercase;
+}
+
+.rtl-main {
+  width: 80%;
+  margin: 15% 10%;
+  position: relative;
+}
+
+.ltr-main{
+
+  width: 80%;
+  margin: 15% 10%;
+  position: relative;
+
+}
+
+.story-container{
+
+  position: relative;
+  width: 100%;
+
+}
+
+.main-container {
+  margin-top: 85%;
+  position: relative;
+}
+
+.col-sm-4.little-panel {
+  height: 150px;
+  margin-bottom: 60%;
+}
+
+.ltr-secondary-img > img, .rtl-secondary-img > img {
+
+  position: absolute;
+
+}
+
+.rtl-main-img > img{
+
+  width:100%;
+
+}
+
+.rtl-secondary-img {
+  margin: -40% 0 0 10%;
+  padding: 20px;
+}
+
+.rtlcontent {
+  position: absolute;
+  z-index: 260;
+  top: 10px;
+  left: 34px;
+  text-align: center;
+}
+
+div.rtl-parallax{
+
+  height:150px;
+
+}
+
+.ltr-main-img > img{
+
+  width:100%;
+
+}
+
+.ltr-secondary-img {
+  margin: -40% 10% 0 0;
+  padding: 20px;
+}
+
+.ltrcontent {
+  position: absolute;
+  z-index: 260;
+  top: 10px;
+  left: 55px;
+  text-align: center;
+}
+
+div.ltr-parallax{
+
+  height:150px;
+
+}
+
+.hour {
+  color: #574318;
+  font-family: brandon_grotesquelight;
+  font-size: 20px;
+}
+
+h3.story {
+  color: #574318;
+  font-family: linotype_didotroman;
+  font-size: 25px;
+  margin-bottom: 190px;
+  text-transform: uppercase;
+  margin-top: -4%;
+
+}
+
+h3 > p.story {
+  color: #574318;
+  font-family: linotype_didotroman;
+  font-size: 18px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+p.story {
+  color: #574318;
+  font-family: brandon_grotesquelight;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 12px;
+}
+
+.col-sm-4.little-panel {
+  height: 150px;
+}
+
+.abv-little-panel {
+  background: #574318;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+.abv-little-panel > img {
+  position: relative;
+  margin-top: -70%;
+}
+
+.btn.btn-infos {
+  font-family: 'brandon_grotesquemedium';
+  font-size: 14px;
+  background: #93a446;
+  text-transform: uppercase;
+  color: #574318;
+  padding: 10px 40px;
+  margin: 10% 25%;
+}
+
+.btn.btn-infos:hover {
+
+  background: #aa9c30;
+  color:#fff;
+
+}
+
+
+@media(min-width: 768px){
+
+.abv-carousel {
+    position: absolute;  color:#f9f9f9;
+  font-family: linotype_didotroman;
+  position: absolute;
+  font-size: 20px;
+  text-align: center;
+
+    top: 125px;
+    width: 200px;
+    left: 24%;
+}
+
+.contact-container {
+    position: absolute;
+    top: 410px;
+    left: 70%;
+}
+
+.btn.btn-infos {
+  font-family: 'brandon_grotesquemedium';
+  font-size: 14px;
+  background: #93a446;
+  text-transform: uppercase;
+  color: #574318;
+  padding: 10px 40px;
+  margin: 30% 0%;
+}
+
+.abv-text {
+  color: #f9f9f9;
+  font-family: linotype_didotroman;
+  position: absolute;
+  font-size: 12px;
+  text-align: center;
+  line-height: 10px;
+  top: 220px;
+  left: 23%;
+}
+
+.btn-decouverte{
+
+  font-family: 'brandon_grotesquelight';
+  font-size: 14px;
+  background: #aa9c30;
+  text-transform: uppercase;
+  color:#f1f3e6;
+  padding: 10px 40px;
+  margin-top: 15px;
+
+}
+
+.btn-decouverte:hover{
+
+  background-color: #decf58;
+
+}
+
+.rtl-main-img > img {
+  width: 70%;
+}
+
+.rtlcontent {
+  position: absolute;
+  z-index: 260;
+  top: 10px;
+  left: 100px;
+  text-align: center;
+}
+
+.rtl-secondary-img {
+  margin: -25% 0 0 0%;
+  padding: 40px;
+}
+
+.ltr-main-img > img {
+  width: 50%;
+  margin-left: 50%;
+}
+
+.ltrcontent {
+  position: absolute;
+  z-index: 260;
+  top: 10px;
+  text-align: center;
+}
+
+.ltr-secondary-img {
+  margin: -17% 0 0 -16%;
+  padding: 100px;
+}
+
+h3.story {
+  color: #574318;
+  font-family: linotype_didotroman;
+  font-size: 25px;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+
+.col-sm-4.little-panel {
+  height: 150px;
+  margin-bottom: 10%;
+}
+
+.main-container {
+  margin-top: 20%;
+  position: relative;
+}
+
+
+}
+
+@media(min-width: 992px){
+
+.navbar-light{
+
+	background-color: #f7f9f0;
+	padding:20px 30px;
+
+}
+
+.slick-next {
+    
+    width : 40px;
+    height: 40px;
+    font-size: 2rem;
+    padding-top: 5px;
+    color: #141414;
+}
+
+.slick-prev {
+    width : 40px;
+    height: 40px;
+    font-size: 2rem;
+    padding-top: 5px;
+    color: #141414;
+}
+
+.abv-carousel {
+  position: absolute;
+  top: 250px;
+  width: 400px;
+  left: 22%;
+}
+
+.abv-text {
+  color: #f9f9f9;
+  font-family: linotype_didotroman;
+  position: absolute;
+  font-size: 20px;
+  text-align: center;
+  line-height: 12px;
+  top: 440px;
+  left: 23%;
+}
+
+.btn-decouverte{
+
+  font-family: 'brandon_grotesquelight';
+  font-size: 14px;
+  background: #aa9c30;
+  text-transform: uppercase;
+  color:#f1f3e6;
+  padding: 10px 40px;
+  margin-top: 40px;
+
+}
+
+.btn-decouverte:hover{
+
+  background-color: #decf58;
+
+}
+
+.contact-container {
+  position: absolute;
+  top: 820px;
+  left: 76%;
+}
+
+p.contact{
+
+  color: #ffffff;
+  font-family: 'brandon_grotesquemedium';
+  font-size: 14px;
+  text-transform: uppercase;
+
+}
+
+.rtl-main-img > img{
+
+  width:60%;
+
+}
+
+.ltr-main {
+  width: 60%;
+  margin: 15% 20%;
+  position: relative;
+}
+
+.ltr-main-img{
+
+  max-width: 100%;
+  overflow: hidden;
+
+}
+
+.ltr-main-img > img{
+
+  margin-left: 40%;
+  height: 700px;
+
+}
+
+.rtl-secondary-img {
+  width: 50%;
+  margin: -23% 0 0 0%;
+  padding: 0;
+  margin-left: 50%;
+  
+}
+
+.ltr-secondary-img {
+  width: 70%;
+  margin: -45% 0 0 0%;
+  padding: 0;
+  margin-left: -5%;
+}
+
+.rtlcontent {
+  position: absolute;
+  top: 20px;
+  text-align: center;
+  left:68%;
+}
+
+.ltrcontent {
+  position: absolute;
+  top: 20px;
+  text-align: center;
+}
+
+.ltr-main-img > img, .rtl-main-img > img, .ltr-secondary-img > img, .rtl-secondary-img > img {
+
+  position: relative;
+
+}
+
+
+div.rtl-parallax{
+
+  height:200px;
+
+}
+
+div.ltr-parallax{
+
+  height:300px;
+
+
+}
+
+h3.story {
+  color: #574318;
+  font-family: linotype_didotroman;
+  font-size: 25px;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  margin-top: 0%;
+}
+
+h3 > p.story {
+  color: #574318;
+  font-family: linotype_didotroman;
+  font-size: 25px;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+
+.abv-little-panel {
+  background: #574318;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+
+.col-sm-4.little-panel {
+  height: 300px;
+}
+
+.main-container {
+  margin-top: 30%;
+  position: relative;
+}
+
+.btn.btn-infos {
+  font-family: 'brandon_grotesquemedium';
+  font-size: 14px;
+  background: #93a446;
+  text-transform: uppercase;
+  color: #574318;
+  padding: 10px 40px;
+  margin: 60% 19%;
+}
+
+.btn.btn-infos:hover {
+
+  background: #aa9c30;
+  color:#fff;
+
+}
+
+}
+
+@media(max-width: 991px){
+
+.navbar-light{
+
+	background-color: #f7f9f0;
+
+}
+
+}

@@ -1,7 +1,7 @@
 {
-  "name": "MovieFinder",
+  "name": "Diadao",
   "version": "1.0.0",
-  "description": "MovieFinder App",
+  "description": "Diadao App",
   "main": "webpack.config.js",
   "scripts": {
     "dev-script": "webpack --mode development",
@@ -10,17 +10,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/esalle34/test.git"
+    "url": "git+https://github.com/esalle34/Diadao"
   },
   "keywords": [
-    "MovieFinder"
+    "Diadao"
   ],
   "author": "Eric Salle",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/esalle34/test/issues"
+    "url": "https://github.com/esalle34/Diadao/issues"
   },
-  "homepage": "https://github.com/esalle34/test#readme",
+  "homepage": "https://github.com/esalle34/Diadao#readme",
   "devDependencies": {
     "@babel/core": "^7.7.4",
     "@babel/preset-env": "^7.7.4",
@@ -29,21 +29,21 @@
     "babel-loader": "^8.0.6",
     "css-loader": "^3.2.0",
     "file-loader": "^5.0.2",
+    "mini-css-extract-plugin": "^0.9.0",
     "nodemon": "^2.0.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-lazy-load": "^3.0.13",
-    "react-owl-carousel2": "^0.3.0",
+    "react-lazyload": "^2.6.5",
+    "react-parallax": "^3.0.3",
+    "react-slick": "^0.25.2",
     "style-loader": "^1.0.1",
-    "styled-components": "^4.4.1",
-    "styled-media-query": "^2.1.2",
     "superagent": "^5.1.1",
     "uglifyjs-webpack-plugin": "^2.2.0",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
   },
   "dependencies": {
-    "@bootstrap-styled/v4": "^3.2.1",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "slick-carousel": "^1.8.1"
   }
 }

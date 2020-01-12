@@ -1,5 +1,6 @@
 const webpack = require('webpack');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
   entry: { main: './jsx/main.jsx' },
@@ -49,3 +50,4 @@ module.exports = {
     contentBase: './js'
   }
 };
+
