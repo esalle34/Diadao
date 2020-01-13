@@ -428,6 +428,12 @@ p.panel-one-p {
   margin-bottom: 30px;
 }
 
+ul.left-list{
+
+  margin-left: 24%;
+
+}
+
 @media(min-width: 768px){
 
 .abv-carousel {
@@ -542,6 +548,11 @@ h3.story {
   position: relative;
 }
 
+ul.left-list{
+
+  margin-left: 0%;
+
+}
 
 }
 
@@ -772,6 +783,12 @@ h3 > p.story {
 
   background: #aa9c30;
   color:#fff;
+
+}
+
+ul.left-list{
+
+  margin-left: 24%;
 
 }
 
